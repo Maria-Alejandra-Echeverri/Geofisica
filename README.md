@@ -20,7 +20,7 @@ Para ejecutar esta aplicación, necesitas tener Python instalado. Sigue los paso
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/joncutrer/earthquakemap-streamlit.git
+    git clone https://github.com/Maria-Alejandra-Echeverri/Geofisica.git
     ```
 
 2. Instala los paquetes necesarios:
@@ -53,12 +53,13 @@ Utilice los controles deslizantes de la barra lateral para establecer la magnitu
 
 El mapa muestra las ubicaciones de los eventos sismicos con marcadores codificados por colores según la magnitud:
 
-Plata: Magnitud < 1,8
-Amarillo: 1,8 ≤ Magnitud < 2,4
-Naranja: 2,4 ≤ Magnitud < 5
-Rojo: 5 ≤ Magnitud < 7
-Magenta: 7 ≤ Magnitud < 8,5
-Púrpura: Magnitud ≥ 8,5
+- Plata: Magnitud < 1,8
+- Amarillo: 1,8 ≤ Magnitud < 2,4
+- Naranja: 2,4 ≤ Magnitud < 5
+- Rojo: 5 ≤ Magnitud < 7
+- Magenta: 7 ≤ Magnitud < 8,5
+- Púrpura: Magnitud ≥ 8,5
+
 Haga clic en un marcador para ver detalles sobre el eventos sismicos, incluida la magnitud y la ubicación.
 
 ### Tabla de datos
@@ -67,11 +68,11 @@ Debajo del mapa, una tabla de datos muestra información detallada sobre los eve
 
 ## Dependencias
 
-streamlit
-pandas
-requests
-folium
-streamlit-folium
+- streamlit
+- pandas
+- requests
+- folium
+- streamlit-folium
 
 Asegúrese de que estos paquetes aparezcan en el archivo `requirements.txt` para una fácil instalación.
 
