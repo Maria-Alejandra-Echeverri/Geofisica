@@ -90,8 +90,7 @@ def plot_earthquakes_on_map(df):
 # Streamlit app
 def main():
     st.title("Earthquake Data")
-    st.markdown("This app displays earthquake data for a selected date range on an interactive map.")
-    
+    st.markdown("Esta aplicación muestra datos de terremotos para un rango de fechas seleccionado en un mapa interactivo.")    
     # Sidebar date input
     st.sidebar.header("Select Date Range")
     start_date = st.sidebar.date_input("Start Date", datetime.now() - timedelta(days=1))
